@@ -88,13 +88,13 @@
 
 ## Results
 1. Register Student
-   ![Alt Text](URL_or_path_to_the_GIF)
-   ![Alt Text](URL_or_path_to_the_GIF)
+   !(Verify_Name-ID-email.gif)
+   !(Verify_DateOfBirth.gif)
 2. Find Student
-   ![Alt Text](URL_or_path_to_the_GIF)
+   !(Find_Student.gif)
 3. Grade Student
-   ![Alt Text](URL_or_path_to_the_GIF)
+   !(Grade_Student.gif)
 4. Enroll Student
-   ![Alt Text](URL_or_path_to_the_GIF)
+   !(Enroll_Student.gif)
 5. Show Students Summary & Show Courses Summary
-   ![Alt Text](URL_or_path_to_the_GIF)
+   !(Enroll_Student.gif)
