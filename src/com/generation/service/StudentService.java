@@ -30,12 +30,10 @@ public class StudentService {
     public boolean isSubscribed(String studentId) {
         // Check whether student is subscribed on this platform
         return findStudent(studentId) != null;
-
     }
 
     public void showSummary() {
         // show the student details and the enrolled courses.
-
         System.out.println("Enrolled Students");
 
         for (String key : students.keySet()) {  // key is the student ID
@@ -70,28 +68,25 @@ public class StudentService {
         // Find the student by the ID
         Student student = students.get(studentId);
 
-
         // if the student passed the course then give the student the credits
-        // otherwise 0 credit is givet.
-        System.out.println( "│ Student Pass the course? (Y/N)       │" );
+        // otherwise 0 credit is given.
+        System.out.println( "│ Student Passed the course? (Y/N)        │" );
         String pass = "";
         Scanner scanner = new Scanner(System.in);
-        String validGrade = "^[yYnN]";
+        String validGrade = "^[yYnN]";      //accept Y, y, N, or n
         do {
             pass = scanner.nextLine().trim();
             if (!pass.matches(validGrade)) {
-                System.out.println("│ Invalid entry. Pass? (Y/N)    │");
+                System.out.println("│ Invalid entry. Passed? (Y/N)            │");
             } else if (pass.equals("Y") || pass.equals("y")) {
-                student.setGrade(course.getCredits());
+                student.setGrade(course.getCredits());   // if passed - give credits
                 break;
             } else {
                 break;
             }
         }while (true) ;
 
-
-
-        // give it a grade
+        // Display total credits
         System.out.println("Total credits achieved by the student: "
                 + studentId
                 + " is "

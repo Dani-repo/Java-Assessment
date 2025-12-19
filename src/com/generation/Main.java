@@ -86,6 +86,7 @@ public class Main {
         } while (true);
 
         // check for valid email address
+        // rules: must not be empty + must contain xxxx@xxx.xx
         System.out.println( "│ Enter student email address:             │");
         String email = null;
         String validEmail = "^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$";
@@ -98,6 +99,7 @@ public class Main {
         } while (true);
 
         // check for valid date in mm/dd/yyyy format
+        // rules: must not be empty + and in mm/dd/yyyy format.
         System.out.println( "│ Enter student birth date (mm/dd/yyyy)    │" );
         DateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
         formatter.setLenient(false); // use strict validation
