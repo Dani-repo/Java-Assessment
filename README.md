@@ -88,13 +88,13 @@
 
 ## Results
 1. Register Student
-   !(Verify_Name-ID-email.gif)
-   !(Verify_DateOfBirth.gif)
+   <img src="Verify_Name-ID-email.gif"/>
+   <img src= "Verify_DateOfBirth.gif">
 2. Find Student
-   !(Find_Student.gif)
+   <img src = "Find_Student.gif">
 3. Grade Student
-   !(Grade_Student.gif)
+   <img src= "Grade_Student.gif">
 4. Enroll Student
-   !(Enroll_Student.gif)
+   <img src= "Enroll_Student.gif">
 5. Show Students Summary & Show Courses Summary
-   !(Enroll_Student.gif)
+   <img src = "Enroll_Student.gif">
