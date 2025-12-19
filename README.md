@@ -86,15 +86,3 @@
   Afterwards, fill in the `public List<Course> findPassedCourses( Course course )` method in Student.java
   2. Implement an additional feature in the menu options that will display the average grade of all the students suscribed to a given course.
 
-## Results
-1. Register Student
-   <img src="Verify_Name-ID-email.gif"/>
-   <img src= "Verify_DateOfBirth.gif">
-2. Find Student
-   <img src = "Find_Student.gif">
-3. Grade Student
-   <img src= "Grade_Student.gif">
-4. Enroll Student
-   <img src= "Enroll_Student.gif">
-5. Show Students Summary & Show Courses Summary
-   <img src = "Enroll_Student.gif">
